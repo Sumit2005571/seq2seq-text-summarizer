@@ -1,0 +1,12 @@
+{
+  "model": "Seq2Seq + Bahdanau Attention",
+  "dataset": "CNN/DailyMail",
+  "train_size": 20000,
+  "val_loss": 6.5675,
+  "val_ppl": 711.56,
+  "epochs": 15,
+  "hidden_dim": 256,
+  "embed_dim": 128,
+  "parameters": 24671264,
+  "notes": "Small model trained on subset. Architecture correctly implements Bahdanau attention. Low ROUGE expected for this scale."
+}
